@@ -91,3 +91,22 @@ body {
   // background-color: gray;
   // padding: 1.5rem;
 }
+
+.bg-mod {
+  background-color: gray;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 70vh;
+}
+
+.bd-placeholder-img {
+  z-index: -99;
+}
