@@ -15,6 +15,76 @@
 </head>
 
 <body>
+  <header data-bs-theme="light">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+      <div class="container-fluid">
+
+        <a
+          class="navbar-brand d-inline-block"
+          href="#"
+        ><img
+            src="./assets/logo.jpg"
+            alt="logo"
+            height="40"
+            class="d-inline-block align-text-center"
+          >ТОО «РИТАМ-Павлодар»</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarCollapse"
+        >
+          <ul class="navbar-nav me-0 mb-2 mb-md-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="#"
+              >Главная</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="#"
+              >О предприятии</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+              >Продукция</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+              >Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+              >Галерея</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!--  -->
   <div class="container-fluid gx-0">
 
     <div
@@ -27,7 +97,7 @@
           type="button"
           data-bs-target="#myCarousel"
           data-bs-slide-to="0"
-          class="active"
+          class="active bg-primary"
           aria-current="true"
           aria-label="Slide 1"
         ></button>
@@ -36,12 +106,14 @@
           data-bs-target="#myCarousel"
           data-bs-slide-to="1"
           aria-label="Slide 2"
+          class="bg-primary"
         ></button>
         <button
           type="button"
           data-bs-target="#myCarousel"
           data-bs-slide-to="2"
           aria-label="Slide 3"
+          class="bg-primary "
         ></button>
 
         <!-- <button
@@ -85,12 +157,12 @@
             <rect
               width="100%"
               height="100%"
-              fill="var(--bs-secondary-color)"
+              fill="var(--bs-primary)"
             />
           </svg>
           <div class="container">
-            <div class="carousel-caption">
-              <h1>Example headline.</h1>
+            <div class="carousel-caption ">
+              <h1>Подпись 1</h1>
             </div>
           </div>
         </div>
@@ -113,12 +185,12 @@
             <rect
               width="100%"
               height="100%"
-              fill="var(--bs-secondary-color)"
+              fill="var(--bs-primary)"
             />
           </svg>
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
+              <h1>Подпись 2</h1>
 
             </div>
           </div>
@@ -142,12 +214,12 @@
             <rect
               width="100%"
               height="100%"
-              fill="var(--bs-secondary-color)"
+              fill="var(--bs-primary)"
             />
           </svg>
           <div class="container">
             <div class="carousel-caption ">
-              <h1>3One more for good measure.</h1>
+              <h1>Подпись 3</h1>
 
             </div>
           </div>
