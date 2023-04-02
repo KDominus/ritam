@@ -144,3 +144,9 @@ body {
   background-image: url('../assets/tab-background.jpeg');
   background-position: center center;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
