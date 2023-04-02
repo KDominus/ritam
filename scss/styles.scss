@@ -89,7 +89,7 @@ $enable-shadows: true;
 body {
   // color: red;
   // background-color: gray;
-  // padding: 1.5rem;
+  // padding-top: auto;
 }
 
 .bg-mod {
@@ -129,4 +129,18 @@ body {
     // transition: all 0.3s;
     border-left: 0.3em solid $warning;
   }
+}
+
+.about-background {
+  padding-top: 6rem;
+  height: 100vh;
+  background-image: url('../assets/tab-background.jpeg');
+  background-position: center center;
+}
+
+.products-background {
+  padding-top: 6rem;
+  height: 100%;
+  background-image: url('../assets/tab-background.jpeg');
+  background-position: center center;
 }
